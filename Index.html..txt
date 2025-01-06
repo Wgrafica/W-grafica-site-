@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W Gráfica - Personalizados Profissionais</title>
+  <style>
+    /* Estilo Geral */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 3px solid #333;
+    }
+
+    header h1 {
+      color: #daa520; /* Dourado */
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Seção de Produtos */
+    .products {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      text-align: center;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .product p {
+      font-size: 1em;
+      color: #333;
+    }
+
+    .product button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #008000; /* Verde */
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .product button:hover {
+      background-color: #006400;
+    }
+
+    /* Promoções */
+    .promotions {
+      padding: 20px;
+      background-color: #fff;
+      border-top: 3px solid #333;
+    }
+
+    .promotion {
+      background-color: #ffcccc; /* Vermelho claro */
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      color: #000;
+      text-align: center;
+    }
+
+    /* Depoimentos */
+    .testimonials {
+      padding: 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .testimonial {
+      margin: 10px 0;
+      font-style: italic;
+      color: #333;
+    }
+
+    /* Formulário para E-mail */
+    .newsletter {
+      padding: 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .newsletter input {
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      background-color: #008000; /* Verde */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>W Gráfica</h1>
+  <p>Personalizados com Qualidade e Profissionalismo</p>
+</header>
+
+<nav>
+  <a href="#produtos">Produtos</a>
+  <a href="#depoimentos">Depoimentos</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="produtos" class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Caneca Personalizada">
+    <h3>Caneca Personalizada</h3>
+    <p>Preço: R$30,00</p>
+    <button>Comprar</button>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="T-shirt Personalizada">
+    <h3>T-shirt Personalizada</h3>
+    <p>Preço: R$50,00</p>
+    <button>Comprar</button>
+  </div>
+</section>
+
+<section id="promocoes" class="promotions">
+  <div class="promotion">
+    <h3>Promoção: Leve 3, Pague 2!</h3>
+    <p>Somente esta semana. Não perca!</p>
+  </div>
+</section>
+
+<section id="depoimentos" class="testimonials">
+  <h2>O que nossos clientes dizem:</h2>
+  <div class="testimonial">
+    <p>"Produtos de alta qualidade e entrega super rápida! Recomendo!"</p>
+    <p>- Ana Silva</p>
+  </div>
+  <div class="testimonial">
+    <p>"Amei as canecas personalizadas! Super bem feitas."</p>
+    <p>- João Mendes</p>
+  </div>
+</section>
+
+<section class="newsletter">
+  <h2>Receba nossas promoções exclusivas</h2>
+  <form>
+    <input type="email" placeholder="Seu e-mail" required>
+    <input type="date" placeholder="Sua data de aniversário">
+    <button type="submit">Cadastrar</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 W Gráfica - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
